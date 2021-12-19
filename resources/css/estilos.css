@@ -1,0 +1,54 @@
+/* defincion de estilos personalizados */
+
+
+
+/* Modificacion de objeto select */
+select{
+
+    height:30px;    
+    font-size: 12px; 
+    padding:3px;
+    padding-left:6px;
+
+    @apply content-center border-gray-400 rounded-md shadow-sm
+}
+
+select:focus{
+    @apply border-indigo-400 ring ring-indigo-200 ring-opacity-50
+}
+
+select:hover{
+    @apply border-blue-300 bg-blue-200 text-white 
+}
+
+
+/* Personalziacion de clase para tablas  */
+.table {
+    @apply min-w-full divide-gray-200;
+}
+
+.tabla thead{
+    @apply bg-blue-200;
+}
+
+.tabla tbody{
+    @apply bg-white divide-y divide-gray-200;
+}
+
+.tabla thead th{
+    @apply px-6 py-1 text-left text-xs font-medium text-gray-500 uppercase tracking-wider;
+}
+
+.tabla tbody td{
+    @apply px-6 py-1 whitespace-nowrap text-xs font-thin border-2;
+}
+
+
+.tabla tbody tr:hover{
+
+    @apply bg-blue-400;
+}
+
+
+
+
